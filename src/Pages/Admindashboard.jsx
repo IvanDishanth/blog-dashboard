@@ -3,14 +3,14 @@ function Admindashboard() {
     <div>
         <div className="flex">
             {/* Sidebar */}
-            <div className="w-1/4 bg-gray-800 text-white h-screen p-4 scrollbar overflow-y-auto fixed top-0 left-0">
-                <h1 className="text-3xl font-bold mb-4">Admin</h1>
+            <div className="w-1/4 bg-gray-800 text-white h-screen p-16 scrollbar overflow-y-auto fixed top-10 left-0 z-2">
+                <h1 className="text-3xl font-bold mb-4 border border-gray-300 px-9 py-2  bg-gray-800 fixed top-10 left-0 ">Admin Dashboard</h1>
                     
-                <h2 className="text-xl font-bold mb-4">Admin Dashboard</h2>
+
                 <ul>
-                    <li className="mb-2"><a href="#" className="hover:underline">Dashboard Overview</a></li>
-                    <li className="mb-2"><a href="#" className="hover:underline">Add Blog</a></li>
-                    <li className="mb-2"><a href="#" className="hover:underline">Manage Blogs</a></li>
+                    <li className="mb-2"><a href="#" className="hover:underline text-white hover:bg-red-700 rounded- px-5 right-4 top-2">Dashboard Overview</a></li>
+                    <li className="mb-2"><a href="#" className="hover:underline text-white hover:bg-red-700 rounded-dl px-3 right-4 top-2">Add Blog</a></li>
+                    <li className="mb-2"><a href="#" className="hover:underline text-white hover:bg-red-700 rounded-lg px-3 w right-4 top-2">Manage Blogs</a></li>
                     <li className="mb-2"><a href="#" className="hover:underline">Users</a></li>
                     <li className="mb-2"><a href="#" className="hover:underline">Dashboard Overview</a></li>
                     <li className="mb-2"><a href="#" className="hover:underline">Add Blog</a></li>
@@ -44,7 +44,7 @@ function Admindashboard() {
             </div>
 
             {/* Main Section */}
-            <div className="w-3/4 p-6">
+            <div className="w-3/4 p-10 ml-auto bg-gray-100 h-screen overflow-y-auto">
                 {/* Blog List Table */}
                 <div className="mb-6">
                     <h2 className="text-2xl font-bold mb-4">Blog List</h2>
