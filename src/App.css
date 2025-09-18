@@ -1,0 +1,29 @@
+/* Light mode styles */
+html {
+  @apply bg-white text-gray-900;
+}
+
+/* Dark mode styles */
+.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Example for links */
+a {
+  @apply text-pink-600;
+}
+
+.dark a {
+  @apply text-pink-400;
+}
+
+/* Example for buttons */
+button {
+  @apply bg-pink-500 text-white;
+}
+
+.dark button {
+  @apply bg-pink-700 text-white;
+}
+
+/* Add more global styles as needed for dark mode */

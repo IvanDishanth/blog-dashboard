@@ -146,8 +146,8 @@ function Userdashboard() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-red-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-extrabold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 dark:text-white">
+      <div className="container mx-auto px-4 py-12">
+        <h1 className="text-4xl font-extrabold text-center mb-5 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 dark:text-white">
           User Dashboard
         </h1>
 

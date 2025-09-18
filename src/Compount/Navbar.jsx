@@ -21,7 +21,7 @@ function Navbar() {
             <div className="relative">
               <button
                 onClick={() => setDropdownOpen(!dropdownOpen)}
-                className="hover:bg-pink-700 rounded-lg px-3 py-1 transition-colors duration-300"
+                className="hover:bg-pink-700 rounded-lg px-3 transition-colors duration-300"
               >
                 Menu
               </button>
@@ -30,7 +30,7 @@ function Navbar() {
                 onClick={() => setDarkMode(!darkMode)}
                 className="ml-4 text-white hover:bg-pink-700 rounded-lg px-3 py-1 transition-colors duration-300"
               >
-                {darkMode ? 'Light Mode' : 'Dark Mode'}
+                
               </button>
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white text-gray-800 rounded shadow-lg dark:bg-gray-800 dark:text-gray-200 transition-all duration-300">
